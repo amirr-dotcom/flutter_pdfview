@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
-
+    namespace "io.endigo.plugins.pdfviewflutter"
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
